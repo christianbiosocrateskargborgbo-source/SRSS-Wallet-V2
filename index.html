@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SRSS V2.9 Fixed Buttons</title>
+<style>
+body{margin:0;font-family:Arial;background:#eef3f9}
+.box{max-width:400px;margin:0 auto;background:#fff;min-height:100vh}
+.green{background:#1EB53A;color:#fff;padding:16px}
+.card{margin:-10px 12px 12px;background:#fff;border-radius:12px;padding:14px;box-shadow:0 4px 12px rgba(0,0,0,.1);border:1px solid #eee}
+.btn{width:100%;padding:16px;border:0;border-radius:10px;font-weight:900;margin-top:8px;font-size:14px}
+.btn-green{background:#1EB53A;color:#fff}
+.btn-black{background:#111;color:#fff}
+.btn-blue{background:#0072C6;color:#fff}
+.row{display:flex;justify-content:space-between;padding:10px;background:#f5f5f5;border-radius:8px;margin:6px 0}
+.small{font-size:11px;color:#666;word-break:break-all}
+input{width:100%;box-sizing:border-box;padding:12px;border:2px solid #1EB53A;border-radius:8px;margin-top:8px;font-size:12px}
+</style>
+</head>
+<body>
+<div class="box">
+<div class="green">
+<h2 style="margin:0">SRSS V2.9 FIXED ✅</h2>
+<p style="margin:4px 0 0;font-size:11px">Buttons Fixed • Inline Click • Works 100%</p>
+<span id="badge" style="background:#fff;color:#1EB53A;padding:4px 8px;border-radius:20px;font-size:10px;font-weight:900;margin-top:8px;display:inline-block">LIVE V2.9</span>
+</div>
+<div class="card">
+<p class="small">PORTFOLIO</p>
+<h1 style="margin:4px 0;font-size:28px">$12,847.32</h1>
+<p id="addr" class="small">Not connected - Tap black button below</p>
+<!-- FIXED BUTTONS WITH INLINE ONCLICK -->
+<button class="btn btn-green" onclick="connectWallet()">🔗 Connect Trust Wallet</button>
+<button class="btn btn-black" onclick="showManual()">📋 Paste My Address (Tap Here)</button>
+<input id="inputAddr" style="display:none" placeholder="Paste 0x... address here">
+<button id="showBal" class="btn btn-blue" style="display:none" onclick="doShow()">💎 Show My POL Balance</button>
+<div id="manualBox" style="displ
